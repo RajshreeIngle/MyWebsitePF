@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: bisque;
+}
+
+#header {
+    background-color: black;
+    color: white;
+    height: 27px;
+    text-align: center;
+    padding: 18px;
+    font-size: 24px;
+    /* font-family: 'Raleway', sans-serif; */
+}
+
+.photo img {
+    width: 300px;
+    height: auto;
+    padding: 13px;
+}
+
+/* introsection styling */
+#intro-section {
+    display: flex;
+    justify-content: baseline;
+    padding: 25px;
+    padding-left: 200px;
+    padding-right: 150px;
+    /* background-color: aquamarine; */
+    /* padding-left: 125px;
+    padding-right: 125px; */
+    /* background-color: red; */
+}
+
+/* .details{
+    padding: 25px;
+} */
+
+#intro-section div {
+    padding: 25px;
+}
+
+.details h2 {
+    font-size: 48px;
+}
+
+.details h4 {
+    font-size: 32px;
+}
+
+.aboutMe p {
+    line-height: 25px;
+}
+
+.contact-info ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-info li {
+    width: 45%;
+    padding: 5px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.contact-info li a{
+    text-decoration: none;
+    color: black;
+}
+
+#content-exp-edu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* section experience */
+.experience-content {
+    /* padding:25px 10px; */
+    /* padding: 25px 0px 25px 150px; */
+    padding-left: 150px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+}
+
+.experience {
+    padding: 25px;
+    padding-left: 75px;
+
+}
+
+.experience h4,
+h5 {
+    padding: 2px;
+}
+
+.experience p {
+    font-weight: bold;
+    font-size: 17px;
+}
+.experience li {
+    list-style: none;
+}
+
+.education-details {
+    padding-right: 150px;
+    padding-top: 25px;
+    /* background-color: red; */
+}
+
+.education-details .edu-list li {
+    font-weight: bold;
+    padding: 10px;
+    list-style: none;
+}
+
+.innerdiv {
+    display: flex;
+}
+
+.innerdiv ul {
+    padding-top: 10px;
+}
+.innerdiv ul li{
+    list-style: none;
+}
+
+.innerdiv div {
+    /* display: flex; */
+    padding: 50px;
+}
+
+/* certificate-section */
+.certificates{
+    padding: 25px 250px;
+    text-align: center;
+}
+
+/* .certificate-ctr{
+    border: 2px solid black;
+    border-radius: 9px;
+    width: 33%;
+    height: 280px;
+} */
+.certificate-ctr img{
+    width: 33%;
+    border-radius: 9px;
+}
+
+.certificate-ctr img:hover{
+    /* width: 500px;
+  height: 200px; */
+  color: #424242; 
+  /* -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in; */
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(1.15);
+  /* -ms-transform: scale(1.15); IE 9 */
+  /* -webkit-transform: scale(1.15); Safari and Chrome */
+}
+
+footer{
+    background-color: black;
+    height: 50px;
+    /* color: white; */
+    text-align: center;
+    padding: 15px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
