@@ -5,6 +5,7 @@ const app = express();
 
 //EXPRESS SPECIFIC CONFIG
 app.use('/static', express.static("static"));
+app.use('/images', express.static("images"));
 
 //PUG CONFIG
 app.set("view engine", 'pug');
